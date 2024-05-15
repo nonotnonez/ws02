@@ -1,23 +1,20 @@
 ---
-title : " DevOps Projects "
+title : " Cloud DevSecOps "
 date : "`r Sys.Date()`"
 weight : 1
 chapter : false
 ---
 
-# Projects
+# Cloud DevSecOps
 
-**DevOps** is a methodology that combines software development and IT operations to create a streamlined and automated development process. To achieve this, there are several tools that DevOps teams use to automate processes, manage infrastructure, and monitor applications
+#### Overview
 
-In this workshop, we will focus in some of DevOps tools:
-- **DevOps tools categorized:**
-    - Version Control Systems (VCS): GitHub, GitLab
-    - Continuous Integration (CI) Tools: Jenkins, GitLab
-    - Containerization and Orchestration: Docker, Kubernetes
-    - Infrastructure as Code (IaC): Terraform
-    - Monitoring and Logging Tools: Prometheus, Zabbix, Grafana, ELK Stack
-    
-![1](/ws02/images/1/tools.jpg?featherlight=false&width=90pc)
+This workshop will demonstrate how to leverage infrastructure as code (IaC) and DevSecOps patterns to automate, scale, and improve the security posture of cloud infrastructure and applications. We will create a pipeline that ensures our configurations are secure and compliant from code to cloud.
+
+This guide provides step-by-step instructions to integrate **Prisma Cloud** (and c**heckov**) with **Terraform Cloud**, **GitHub**, V**Scode** and **AWS**.
+
+![1](/ws02/images/1/1.png?featherlight=false&width=90pc)
+![1](/ws02/images/1/2.png?featherlight=false&width=90pc)
 
 
 #### Content

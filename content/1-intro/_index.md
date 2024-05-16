@@ -71,6 +71,5 @@ Cloud9 works best with Chrome or Firefox, not Safari. It cannot be used from a t
 #### Content
 
 1. [Introduction](/ws02/1-intro/)
-2. [Prepairation](/ws02/2-prepair/)
-3. [Configure](/ws02/3-config/)
-4. [Cleanup](/ws02/4-cleanup/)
+2. [Setup / Prerequisities](/ws02/2-prepair/)
+3. [Cleanup](/ws02/3-cleanup/)

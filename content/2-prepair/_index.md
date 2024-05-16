@@ -1,5 +1,5 @@
 ---
-title : "Prepairation"
+title : "Setup / Prerequisities"
 date : "`r Sys.Date()`"
 weight : 2
 chapter : false
@@ -13,9 +13,12 @@ pre : " <b> 2. </b> "
 - AWS account (provided during workshop)
 - Prisma Cloud account (OPTIONAL)
 
-### Contents
+#### Contents
 
-1. [Docker](2.1-docker/)
-2. [AWS](2.2-aws/)
-3. [Teraform](2.3-terraform/)
-4. [Git](2.4-git/)
+1. [Configure IAM User and API Key](2.1-aws/)
+2. [Configure AWS Cloud9 IDE](2.2-c9/)
+3. [Code Scanning with checkov](2.3-checkov/)
+4. [Integrate with Github Actions](2.4-git/)
+5. [Integrate workflow with Terraform Cloud](2.5-tfc/)
+6. [Block a Pull Request, Prevent a Deployment](2.6-block/)
+7. [Deploy to AWS](2.7-awsdeploy/)

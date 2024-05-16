@@ -6,11 +6,7 @@
   </url><url>
     <loc>http://localhost:1313/ws02/2-prepair/2.1-aws/</loc>
   </url><url>
-    <loc>http://localhost:1313/ws02/3-config/3.1-ec2/</loc>
-  </url><url>
     <loc>http://localhost:1313/ws02/1-intro/</loc>
-  </url><url>
-    <loc>http://localhost:1313/ws02/3-config/3.2-jenkins/</loc>
   </url><url>
     <loc>http://localhost:1313/ws02/2-prepair/2.2-c9/</loc>
   </url><url>
@@ -18,15 +14,15 @@
   </url><url>
     <loc>http://localhost:1313/ws02/2-prepair/2.3-checkov/</loc>
   </url><url>
-    <loc>http://localhost:1313/ws02/3-config/</loc>
+    <loc>http://localhost:1313/ws02/3-cleanup/</loc>
   </url><url>
     <loc>http://localhost:1313/ws02/2-prepair/2.4-git/</loc>
   </url><url>
-    <loc>http://localhost:1313/ws02/4-cleanup/4.1-ec2/</loc>
+    <loc>http://localhost:1313/ws02/2-prepair/2.5-tfc/</loc>
   </url><url>
-    <loc>http://localhost:1313/ws02/4-cleanup/</loc>
+    <loc>http://localhost:1313/ws02/2-prepair/2.6-block/</loc>
   </url><url>
-    <loc>http://localhost:1313/ws02/4-cleanup/4.2-jenkins/</loc>
+    <loc>http://localhost:1313/ws02/2-prepair/2.7-awsdeploy/</loc>
   </url><url>
     <loc>http://localhost:1313/ws02/categories/</loc>
   </url><url>

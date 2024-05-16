@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Block a Pull Request, Prevent a Deployment on </title>
+    <link>http://localhost:1313/ws02/2-prepair/2.6-block/</link>
+    <description>Recent content in Block a Pull Request, Prevent a Deployment on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/ws02/2-prepair/2.6-block/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

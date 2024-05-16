@@ -16,10 +16,10 @@ This guide provides step-by-step instructions to integrate **Prisma Cloud** (and
 ![0](/ws02/images/0/1.png?featherlight=false&width=90pc)
 ![0](/ws02/images/0/2.png?featherlight=false&width=90pc)
 
+Workshop Studio: https://catalog.us-east-1.prod.workshops.aws/workshops/e31afbdf-ee40-41fa-a6c9-6ba2cb55fc1e/en-US
 
 #### Content
 
 1. [Introduction](/ws02/1-intro/)
-2. [Prepairation](/ws02/2-prepair/)
-3. [Configuration](/ws02/3-config/)
-4. [Cleanup](/ws02/4-cleanup/)
+2. [Setup / Prerequisities](/ws02/2-prepair/)
+3. [Cleanup](/ws02/3-cleanup/)

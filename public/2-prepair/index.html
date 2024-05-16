@@ -12,21 +12,21 @@
     <title>Prepairation :: </title>
 
     
-    <link href="/ws02/css/nucleus.css?1715765510" rel="stylesheet">
-    <link href="/ws02/css/fontawesome-all.min.css?1715765510" rel="stylesheet">
-    <link href="/ws02/css/hybrid.css?1715765510" rel="stylesheet">
-    <link href="/ws02/css/featherlight.min.css?1715765510" rel="stylesheet">
-    <link href="/ws02/css/perfect-scrollbar.min.css?1715765510" rel="stylesheet">
-    <link href="/ws02/css/auto-complete.css?1715765510" rel="stylesheet">
-    <link href="/ws02/css/atom-one-dark-reasonable.css?1715765510" rel="stylesheet">
-    <link href="/ws02/css/theme.css?1715765510" rel="stylesheet">
-    <link href="/ws02/css/hugo-theme.css?1715765510" rel="stylesheet">
+    <link href="/ws02/css/nucleus.css?1715833485" rel="stylesheet">
+    <link href="/ws02/css/fontawesome-all.min.css?1715833485" rel="stylesheet">
+    <link href="/ws02/css/hybrid.css?1715833485" rel="stylesheet">
+    <link href="/ws02/css/featherlight.min.css?1715833485" rel="stylesheet">
+    <link href="/ws02/css/perfect-scrollbar.min.css?1715833485" rel="stylesheet">
+    <link href="/ws02/css/auto-complete.css?1715833485" rel="stylesheet">
+    <link href="/ws02/css/atom-one-dark-reasonable.css?1715833485" rel="stylesheet">
+    <link href="/ws02/css/theme.css?1715833485" rel="stylesheet">
+    <link href="/ws02/css/hugo-theme.css?1715833485" rel="stylesheet">
     
-    <link href="/ws02/css/theme-workshop.css?1715765510" rel="stylesheet">
+    <link href="/ws02/css/theme-workshop.css?1715833485" rel="stylesheet">
     
     
 
-    <script src="/ws02/js/jquery-3.3.1.min.js?1715765510"></script>
+    <script src="/ws02/js/jquery-3.3.1.min.js?1715833485"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/ws02/js/lunr.min.js?1715765510"></script>
-<script type="text/javascript" src="/ws02/js/auto-complete.js?1715765510"></script>
+<script type="text/javascript" src="/ws02/js/lunr.min.js?1715833485"></script>
+<script type="text/javascript" src="/ws02/js/auto-complete.js?1715833485"></script>
 <script type="text/javascript">
     
         var baseurl = "http:\/\/localhost:1313\/ws02\/";
     
 </script>
-<script type="text/javascript" src="/ws02/js/search.js?1715765510"></script>
+<script type="text/javascript" src="/ws02/js/search.js?1715833485"></script>
 
     
   </div>
@@ -139,13 +139,13 @@
  
   
     
-    <li data-nav-id="/ws02/2-prepair/2.1-docker/" title="Container" class="dd-item 
+    <li data-nav-id="/ws02/2-prepair/2.1-aws/" title="Configure IAM User and API Key" class="dd-item 
         
         
         
         ">
-      <a href="/ws02/2-prepair/2.1-docker/">
-           <b> 2.1 </b> Container
+      <a href="/ws02/2-prepair/2.1-aws/">
+           <b> 2.1 </b> Configure IAM User and API Key
           
             <i class="fas fa-check read-icon"></i>
           
@@ -167,13 +167,13 @@
  
   
     
-    <li data-nav-id="/ws02/2-prepair/2.2-aws/" title="AWS" class="dd-item 
+    <li data-nav-id="/ws02/2-prepair/2.2-c9/" title="Configure AWS Cloud9 IDE" class="dd-item 
         
         
         
         ">
-      <a href="/ws02/2-prepair/2.2-aws/">
-           <b> 2.2 </b> AWS
+      <a href="/ws02/2-prepair/2.2-c9/">
+           <b> 2.2 </b> Configure AWS Cloud9 IDE
           
             <i class="fas fa-check read-icon"></i>
           
@@ -195,13 +195,13 @@
  
   
     
-    <li data-nav-id="/ws02/2-prepair/2.3-terraform/" title="Terraform" class="dd-item 
+    <li data-nav-id="/ws02/2-prepair/2.3-checkov/" title="Code Scanning with checkov" class="dd-item 
         
         
         
         ">
-      <a href="/ws02/2-prepair/2.3-terraform/">
-           <b> 2.3 </b> Terraform
+      <a href="/ws02/2-prepair/2.3-checkov/">
+           <b> 2.3 </b> Code Scanning with checkov
           
             <i class="fas fa-check read-icon"></i>
           
@@ -223,13 +223,13 @@
  
   
     
-    <li data-nav-id="/ws02/2-prepair/2.4-git/" title="Git" class="dd-item 
+    <li data-nav-id="/ws02/2-prepair/2.4-git/" title="Integrate with Github Actions" class="dd-item 
         
         
         
         ">
       <a href="/ws02/2-prepair/2.4-git/">
-           <b> 2.4 </b> Git
+           <b> 2.4 </b> Integrate with Github Actions
           
             <i class="fas fa-check read-icon"></i>
           
@@ -543,9 +543,9 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#diagram">Diagram</a>
+    <li>
       <ul>
-        <li><a href="#workshop---0001">Workshop - 0001</a></li>
+        <li></li>
         <li><a href="#contents">Contents</a></li>
       </ul>
     </li>
@@ -574,22 +574,18 @@
 
 
 
-	<h2 id="diagram">Diagram</h2>
-<h3 id="workshop---0001">Workshop - 0001</h3>
+	<h4 id="setup--prerequisities">Setup / Prerequisities</h4>
 <ul>
-<li>In this lab, we will be automate deploy a Server in <strong>AWS Cloud</strong> with tools: AWS CLI, Docker Compose, Terraform.
-<ul>
-<li>Server Name: <strong>Web-Server</strong></li>
-<li>Deploy processing: <a href="/ws02/3-config/3.1-ec2/">follow link</a></li>
+<li>Github account</li>
+<li>Terraform Cloud account</li>
+<li>AWS account (provided during workshop)</li>
+<li>Prisma Cloud account (OPTIONAL)</li>
 </ul>
-</li>
-</ul>
-<p><img alt="2" src="/cicd-ws/images/2/tf-ws-0001.png?featherlight=false&width=90pc"></p>
 <h3 id="contents">Contents</h3>
 <ol>
-<li><a href="/ws02/2-prepair/2.1-docker/">Docker</a></li>
-<li><a href="/ws02/2-prepair/2.2-aws/">AWS</a></li>
-<li><a href="/ws02/2-prepair/2.3-terraform/">Teraform</a></li>
+<li><a href="2.1-docker/">Docker</a></li>
+<li><a href="2.2-aws/">AWS</a></li>
+<li><a href="2.3-terraform/">Teraform</a></li>
 <li><a href="/ws02/2-prepair/2.4-git/">Git</a></li>
 </ol>
 
@@ -844,7 +840,7 @@
 			<a class="nav nav-prev" href="/ws02/1-intro/" title="Introduction"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/ws02/2-prepair/2.1-docker/" title="Container" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/ws02/2-prepair/2.1-aws/" title="Configure IAM User and API Key" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -854,19 +850,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/ws02/js/clipboard.min.js?1715765510"></script>
-    <script src="/ws02/js/perfect-scrollbar.min.js?1715765510"></script>
-    <script src="/ws02/js/perfect-scrollbar.jquery.min.js?1715765510"></script>
-    <script src="/ws02/js/jquery.sticky.js?1715765510"></script>
-    <script src="/ws02/js/featherlight.min.js?1715765510"></script>
-    <script src="/ws02/js/highlight.pack.js?1715765510"></script>
+    <script src="/ws02/js/clipboard.min.js?1715833485"></script>
+    <script src="/ws02/js/perfect-scrollbar.min.js?1715833485"></script>
+    <script src="/ws02/js/perfect-scrollbar.jquery.min.js?1715833485"></script>
+    <script src="/ws02/js/jquery.sticky.js?1715833485"></script>
+    <script src="/ws02/js/featherlight.min.js?1715833485"></script>
+    <script src="/ws02/js/highlight.pack.js?1715833485"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/ws02/js/modernizr.custom-3.6.0.js?1715765510"></script>
-    <script src="/ws02/js/learn.js?1715765510"></script>
-    <script src="/ws02/js/hugo-learn.js?1715765510"></script>
+    <script src="/ws02/js/modernizr.custom-3.6.0.js?1715833485"></script>
+    <script src="/ws02/js/learn.js?1715833485"></script>
+    <script src="/ws02/js/hugo-learn.js?1715833485"></script>
 
-    <link href="/ws02/mermaid/mermaid.css?1715765510" rel="stylesheet" />
-    <script src="/ws02/mermaid/mermaid.js?1715765510"></script>
+    <link href="/ws02/mermaid/mermaid.css?1715833485" rel="stylesheet" />
+    <script src="/ws02/mermaid/mermaid.js?1715833485"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

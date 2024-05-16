@@ -6,14 +6,12 @@ chapter : false
 pre : " <b> 2. </b> "
 ---
 
-## Diagram 
-### Workshop - 0001
--   In this lab, we will be automate deploy a Server in **AWS Cloud** with tools: AWS CLI, Docker Compose, Terraform. 
-    -  Server Name: **Web-Server** 
-    -  Deploy processing: [follow link](3-config/3.1-ec2)
+#### Setup / Prerequisities
 
-![2](/cicd-ws/images/2/tf-ws-0001.png?featherlight=false&width=90pc)
-
+- Github account
+- Terraform Cloud account
+- AWS account (provided during workshop)
+- Prisma Cloud account (OPTIONAL)
 
 ### Contents
 

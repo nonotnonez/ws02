@@ -5,16 +5,16 @@ weight : 1
 chapter : false
 ---
 
-# Cloud DevSecOps
+# Cloud DevSecOpsCloud DevSecOps with Hashicorp, Palo Alto Networks & AWS
 
-#### Overview
+
 
 This workshop will demonstrate how to leverage infrastructure as code (IaC) and DevSecOps patterns to automate, scale, and improve the security posture of cloud infrastructure and applications. We will create a pipeline that ensures our configurations are secure and compliant from code to cloud.
 
 This guide provides step-by-step instructions to integrate **Prisma Cloud** (and c**heckov**) with **Terraform Cloud**, **GitHub**, V**Scode** and **AWS**.
 
-![1](/ws02/images/1/1.png?featherlight=false&width=90pc)
-![1](/ws02/images/1/2.png?featherlight=false&width=90pc)
+![0](/ws02/images/0/1.png?featherlight=false&width=90pc)
+![0](/ws02/images/0/2.png?featherlight=false&width=90pc)
 
 
 #### Content

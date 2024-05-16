@@ -1,41 +1,14 @@
 ---
-title : "Git"
+title : "Integrate with Github Actions"
 date :  "`r Sys.Date()`" 
 weight : 4
 chapter : false
 pre : " <b> 2.4 </b> "
 ---
 
-Git is a distributed version control system (DVCS) that helps developers track changes to source code during software development. It allows multiple developers to collaborate on projects simultaneously.
+You can leverage GitHub Actions to run automated scans for every build or specific builds, such as the ones that merge into the master branch. This action can alert on misconfigurations, or block code from being merged if certain policies are violated. Results can also be sent to Prisma Cloud and other sources for further review and remediation steps.
 
-#### Overview
-##### Github
-- GitHub is a web-based platform built on top of Git, the distributed version control system. It offers a variety of features to help developers collaborate on software projects
-- GitHub provides a platform for hosting Git repositories. Developers can create new repositories to store their code, either publicly (visible to everyone) or privately (accessible only to authorized collaborators)
+Let's begin by setting an action from the repository page, under the Actions tab. Then click on set up a workflow yourself -> to create a new action from scratch.
 
-#### Configuration
-**Create Github Repository and Access**
-- Create a public repo: https://github.com/nonotnonez/ws-0001
-- Create Github Access Key : https://github.com/settings/tokens
-  - Name: **github_token_ws**
-  - Expiration:	90 days
-  - Select scopes:
-    - repo
-    - workflow
-    
-- Clone Source form Github:
-    git clone https://**token**@github.com/NoNotNonez/ws-0001.git
-- Copy Source code to Github Repo:
-    - cd /ws-0001/terraform
-- Create **.gitignore**: 
-  - to security and prevent important file upload to github
-![24](/cicd-ws/images/2-prepair/2.4-git/1.png)
-
-- Push Source code to Git Repo:
-    - git status
-    - git add .
-    - git commit -m "Add Tf source"
-    - git push 
-![24](/cicd-ws/images/2-prepair/2.4-git/2.png)
 
 
